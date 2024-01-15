@@ -59,7 +59,7 @@ function checkSeq(index){
 function fail(){
     gamestarted = 0;
     round = 0;
-    $("h1").html("Game Over. Press Any Key To Restart");
+    $("h1").html("Game Over. Press Refresh To Restart");
     
     $("body").addClass("game-over");
     setTimeout(() => {
